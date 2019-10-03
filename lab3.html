@@ -5,9 +5,8 @@
   <title>Sample HTML Demonstration Page</title>
   <style>
   body {
-    background: grey;
-    width: 60%;
-    margin: 0 auto;
+
+
   }
 
 
@@ -16,6 +15,13 @@
     font-style: bold;
     font-weight: 400;
     text-align: center;
+  }
+
+  .wrapper {
+    width: 60%;
+    height: 100vh;
+    margin:auto;
+    background: grey;
   }
 
   .head {
@@ -70,6 +76,7 @@
 </head>
 
 <body>
+  <div class="wrapper">
     <div class="head" id="start">
       <p class="newsline">Sample Header</p>
       <a href="#">anchor tag to nowhere</a>
@@ -87,7 +94,6 @@
         click me im great
       </textbox>
       <textbox class="green">
-        Second
       </textbox>
       <textbox class="second">
         <p>
@@ -96,6 +102,7 @@
       </textbox>
     </div>
   </div>
+</div>
 </body>
 
 </html>
